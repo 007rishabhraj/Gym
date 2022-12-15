@@ -1,0 +1,128 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    background-image: url('https://wallpaperaccess.com/full/1484318.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+}
+
+.container {
+    display: inline-block;
+    border: 5px solid black;
+    margin: 100px 90px;
+    padding: 50px 20px 50px 20px;
+    width: 35%;
+    border-radius: 20px;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 13px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.left img {
+    display: inline-block;
+    max-width: 100px;
+}
+
+.left div {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: rgb(190, 80, 124);
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+#search {
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+}
+
+.butn {
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 2em;
+}
+
+.butn:hover {
+    color: rgb(21, 217, 217);
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: medium;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 75%;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 30%;
+    margin: 5px auto;
+}
+
+/* #select{
+    width: 50%;
+}
+#option{
+    border: 2px solid black;
+    border-radius: 20px;
+} */
+/* .bottom-container{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: aquamarine;
+
+} */
